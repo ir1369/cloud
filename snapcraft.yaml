@@ -10,7 +10,6 @@ grade: devel  # 'devel' or 'stable' based on app it's ready for release
 parts:  # Where the app, files and dependencies are defined.
   hello:  # Pulled from setup.py
     plugin: python  # Defines the runtime plugin
-    python-version: python3
     source: .   # Files are in the current directory. This can be almost anything. A .deb, a remote source, etc.
 
 apps:   # Exposes the executable to the host system.
