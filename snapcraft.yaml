@@ -14,6 +14,6 @@ parts:  # Where the app, files and dependencies are defined.
 
 apps:   # Exposes the executable to the host system.
   hello:  # Same name as the 'part' defined above.
-    command: hello.sh
+    command: ./hello.sh
     plugs:
       - network   # Allows the snap in interface with the network. Not needed in devmode but might be in strict.
